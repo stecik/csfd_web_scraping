@@ -1,5 +1,3 @@
-import concurrent.futures
-from googlesearch import search
 import requests
 from bs4 import BeautifulSoup
 
@@ -15,16 +13,6 @@ class UrlGetter:
             films = [item.lower().strip() for item in f.readlines()]
         return films
 
-    # def get_url(self, film_name):
-    #     try:
-    #         search_res = next(search(f"{film_name} csfd", tld="cz", stop=1, lang="cz"))
-    #         print(search_res)
-    #         if "www.csfd.cz" in search_res:
-    #             return search_res
-    #     except Exception as e:
-    #         print(e)
-    #         return None
-
     def get_url(self, film_name):
         film_name = film_name.replace(" ", "+")
         url = f"https://www.google.cz/search?q={film_name}+csfd"
@@ -36,6 +24,7 @@ class UrlGetter:
         s.headers = headers
         html = s.get(url)
         if html.status_code == 200:
+            print(200)
             soup = BeautifulSoup(html.content, "html.parser")
             link_elements = soup.find_all("a", href=True)
             for link in link_elements:
@@ -53,36 +42,15 @@ class UrlGetter:
                 self.urls.update({film: url})
             else:
                 self.failed.append(film)
+        return True
 
     def divide_into_threads(self, number_of_threads, films_list):
         films_len = len(films_list)
         part = films_len // number_of_threads
+        mod = films_len % number_of_threads
         parts = []
-        for i in range(0, films_len - 1, part):
-            if i + part < films_len - 1:
-                parts.append(films_list[i : (i + part)])
-            else:
-                parts.append(films_list[i::])
+        for i in range(0, films_len - mod, part):
+            parts.append(films_list[i : (i + part)])
+        for i in range(-1, -mod - 1, -1):
+            parts[i].append(films_list[i])
         return parts
-
-
-if __name__ == "__main__":
-    url_getter = UrlGetter()
-    films = url_getter.get_films("films_list.txt")
-    number_of_threads = 400
-    results = []
-    with concurrent.futures.ThreadPoolExecutor() as executor:
-        divided_list = url_getter.divide_into_threads(number_of_threads, films)
-        results = [
-            executor.submit(url_getter.get_all_urls, divided_list[x])
-            for x in range(len(divided_list))
-        ]
-
-    url_getter.get_all_urls(films)
-    with open("urls.csv", "w", encoding="utf-8") as f:
-        for key, value in url_getter.urls.items():
-            f.write(f"{key}, {value}")
-    with open("failed.txt", "w", encoding="utf-8") as f:
-        for item in url_getter.failed:
-            f.write(item)
-    print("finished")

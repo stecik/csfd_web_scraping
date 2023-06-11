@@ -1,40 +1,35 @@
-from bs4 import BeautifulSoup
-import requests
+from UrlGetter import UrlGetter
+import os
+import concurrent.futures
 
 
-def get_available_streaming(list_name):
-    available = []
-    with open(list_name, "r", encoding="utf-8") as f:
-        available = [item.lower().strip() for item in f.readlines()]
-    return available
+if __name__ == "__main__":
+    url_getter = UrlGetter()
+    films = url_getter.get_films("new.txt")
+    number_of_threads = min(900, len(films))
+    results = []
 
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+        divided_list = url_getter.divide_into_threads(number_of_threads, films)
+        results = [
+            executor.submit(url_getter.get_all_urls, divided_list[x])
+            for x in range(len(divided_list))
+        ]
 
-def get_film_data(url):
-    s = requests.Session()
-    headers = {
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
-    }
-    s.headers = headers
-    html = s.get(url)
-    available_straming = get_available_streaming("available_streaming.txt")
-    if html.status_code == 200:
-        soup = BeautifulSoup(html.content, "html.parser")
-        # get rating
-        rating = soup.find("div", class_="film-rating-average").get_text().strip()
-        # get streaming services
-        streaming_div = soup.find("div", class_="box-film-vod-services")
-        streaming_services = streaming_div.find_all("div", class_="vod-item")
-        streaming_services_list = []
-        for item in streaming_services:
-            item = item.get_text().strip().lower()
-            if item in available_straming:
-                streaming_services_list.append(item)
-
-        return (rating, streaming_services_list)
+    url_file = "urls_new.csv"
+    if os.path.exists(url_file):
+        with open(url_file, "a", encoding="utf-8") as f:
+            for key, value in url_getter.urls.items():
+                f.write(f"{key}, {value}\n")
     else:
-        return None
+        with open(url_file, "w", encoding="utf-8") as f:
+            f.write("Název,Odkaz\n")
+            for key, value in url_getter.urls.items():
+                f.write(f"{key}, {value}\n")
 
+    with open("failed.txt", "w", encoding="utf-8") as f:
+        for item in url_getter.failed:
+            f.write(item)
+            f.write("\n")
 
-url = "https://www.csfd.cz/film/1626-harry-potter-a-kamen-mudrcu/prehled/"
-data = get_film_data(url)
-print(data)
+    print("finished")
