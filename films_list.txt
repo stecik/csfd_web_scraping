@@ -4,8 +4,8 @@
 13 hodin Tajní vojáci z Benghází
 15 minut
 187 - Kód pro vraždu
-1917 cz tit
-1984 cz tit
+1917 
+1984 
 1984 eng
 2001 Vesmírná odysea
 21 Jump street
@@ -17,7 +17,7 @@
 300 Bitva u Thermopyl
 300 Vzestup říše
 40 Dnů a 40 nocí
-47 Róninů cz tit
+47 Róninů 
 47 metrů
 50 x a stále poprvé
 8 MM
@@ -25,11 +25,11 @@
 A co když je to pravda
 A-Team
 A.I. Umělá inteligence
-Abraham Lincoln vs Zombies cz tit
-Absolutely Anything cz tit
+Abraham Lincoln vs Zombies 
+Absolutely Anything 
 Ace Ventura 1 - Zvířecí detektiv
 Ace Ventura 2 Volání divočiny
-Ad Astra cz tit
+Ad Astra 
 Adamova jablka
 Agent bez minulosti
 Agent v sukni 1
@@ -43,13 +43,13 @@ Alenka v říší divů 2 Za zrcadlem
 Aliance
 Alibi na klíč
 Alita - Bojový anděl
-American Mary cz tit
+American Mary 
 American Ultra
 Americká krása
 Americká reportérka Whiskey Tango Foxtrot
-Americká vražda Rodina od vedle cz tit
+Americká vražda Rodina od vedle 
 Americký sniper
-Amores Perros eng tit
+Amores Perros 
 Andělé a démoni
 Annabelle 1
 Annabelle 2 Zrození zla
@@ -60,43 +60,43 @@ Anthropoid
 Apokalypsa v Hollywoodu
 Apollo 13 eng
 Aquaman
-Arctic Ledové peklo cz tit
+Arctic Ledové peklo 
 Argo
-Assassins Creed cz tit
+Assassins Creed 
 Assassin’s Creed
 Asterix a Obelix Kontra Caesar
 Asterix a Obelix Mise Kleopatra
 Atlas mraků
 Atomic Blonde
-Automata cz tit
+Automata 
 Avatar
-Avengement cz tit
+Avengement 
 Avengers 1
 Avengers 2 Age of Ultron
 Avengers Endgame
-Avengers Infinity War cz tit
+Avengers Infinity War 
 Baba na zabití
 Baby Driver
-Bad Milo! cz tit
-Bajo La Rosa cz tit
-Bankéř cz tit
-Barely Lethal cz tit
+Bad Milo! 
+Bajo La Rosa 
+Bankéř 
+Barely Lethal 
 Barry Seal Nebeský gauner
-Batman - Dying is easy eng tit
+Batman - Dying is easy 
 Batman vs Superman - Úsvit spravedlnosti
 Batman začíná
-Battle Royale cz tit
+Battle Royale 
 Beetlejuice
-Bejvalka ze záhrobí cz tit
-Believe Me The Abduction of Lisa Mcvey cz tit
+Bejvalka ze záhrobí 
+Believe Me The Abduction of Lisa Mcvey 
 Benga v záloze
-Bengálský tygr cz tit
+Bengálský tygr 
 Bestie bez vlasti
 Big Lebowski
 Billy Madison
-Bird Box cz tit
-Bitva kuchařů cz tit
-BlacKkKlansman cz tit
+Bird Box 
+Bitva kuchařů 
+BlacKkKlansman 
 Black Panther
 Black Widow
 Blade 1
@@ -112,64 +112,64 @@ Bláznivý příběh Robina Hooda
 Boa vs. Python
 Bod Zlomu
 Bohemian Rhapsody
-Boj cz tit
+Boj 
 Borat
-Borat 2  Borat Subsequent Moviefilm cz tit
+Borat 2  Borat Subsequent Moviefilm 
 Bouneův odkaz
 Bourneovo ultimátum
 Breakout
-Bright cz tit
+Bright 
 Brimstone
 Bronson
 Buchty a Klobásy
-Bullet Train cz tit
-Bumblebee cz tit
+Bullet Train 
+Bumblebee 
 Bunraku
-Burke and Hare cz tit
-Byl jsem při tom cz tit
+Burke and Hare 
+Byl jsem při tom 
 Bílé maso
-Calibre cz tit
-Captain Marvel cz tit
+Calibre 
+Captain Marvel 
 Catch Me If You Can
 Centrální inteligence
 Cesta
 Cesta do středu země
 Cesta na tajuplný ostrov
 Cesta upírů Van Helsing vs Dracula
-Cesta za smířením cz tit
+Cesta za smířením 
 Charlieho andílci 1
 Charlieho andílci 2 Na plný pecky
-Chicagský Tribunál cz tit
+Chicagský Tribunál 
 Children of Men
-Chlapec 1 cz tit
-Chlast cz tit
+Chlapec 1 
+Chlast 
 Chuckyho kletba
-Chuckyho kult cz tit
+Chuckyho kult 
 Chůva v akci
 Cizinec ve vlaku
-Climax cz tit
+Climax 
 Co dělat v Denveru, když člověk nežije
-Co děláme v temnotách cz tit
+Co děláme v temnotách 
 Co jsme komu udělali
-Co jsme komu zase udělali cz tit
-Co žere Gilberta Grapea cz tit
+Co jsme komu zase udělali 
+Co žere Gilberta Grapea 
 Coach Carter
 Con Air
 Constantine
-Contratiempo cz tit
+Contratiempo 
 Creed 1
-Creed 2 cz tit
+Creed 2 
 Cruella
 Dannyho parťáci 1
 Dannyho parťáci 2
 Dannyho parťáci 3
-Dantovské peklo cz tit
+Dantovské peklo 
 Darth Maul - Apprentice - A Star Wars Fan Film
-David Attenborough - Život na naší planetě cz tit
+David Attenborough - Život na naší planetě 
 Deadpool 1
 Deadpool 2
 Debbie a její parťačky
-Deep Web cz tit
+Deep Web 
 Demolition Man
 Den 12 mann
 Den Nezávislosti 2 Nový Útok
@@ -191,15 +191,15 @@ Doba Ledová 3 Úsvit dinosaurů
 Doba Ledová 4 Země v pohybu
 Doba Ledová 5 Mamutí drcnutí
 Doctor Strange 1
-Dogman cz tit
+Dogman 
 Dokonalá loupež
 Dokonalý svědek s.r.o.
 Dokonalý trik
-Doktor Spánek od Stephena Kinga cz tit
-Dolittle cz tit
+Doktor Spánek od Stephena Kinga 
+Dolittle 
 Dolores Claiborneová
 Don Jon
-Don't Look Up cz tit
+Don't Look Up 
 Dovolená za trest
 Dravci
 Dredd
@@ -214,31 +214,31 @@ Drž hubu!
 Dumbo
 Duna
 Dunkirk
-Durante la tormenta cz tit
-Dva dny, jedna noc cz tit
-Dvanáct cz tit
-Dvanáct rozhněvaných mužů cz tit
-Dvojitý rande cz tit
+Durante la tormenta 
+Dva dny, jedna noc 
+Dvanáct 
+Dvanáct rozhněvaných mužů 
+Dvojitý rande 
 Déjà Vu
-Démon zatracení cz tit
+Démon zatracení 
 Dívka ve sklepě
 Děda je lotr
 Děkujeme, že kouříte
 E.A. Poe Podivný experiment
-El Guardián invisible cz tit
-El Habitante incierto cz tit
+El Guardián invisible 
+El Habitante incierto 
 El Laberinto del Fauno
-El cuerpo cz tit
-El hoyo cz tit
-El practicante cz tit
+El cuerpo 
+El hoyo 
+El practicante 
 Equalizer
 Equalizer 2
 Equilibrium
 Escape from Pretoria en tit
-Escobar cz tit
+Escobar 
 Eurotrip
 Everest
-Everything Everywhere All at Once cz tit
+Everything Everywhere All at Once 
 Evil Dead 1
 Evil Dead 2
 Evil Dead 2013
@@ -251,19 +251,19 @@ Fakjů pane učiteli 2
 Fakjů pane učiteli 3
 Falešní poldové
 Fanoušci
-Fanoušci cz tit
-Fantastic Fear of Everything cz tit
+Fanoušci 
+Fantastic Fear of Everything 
 Fantastická zvířata Grindelwaldovy zločiny
 Fantastická zvířata a kde je najít
 Fantastická čtyřka 1
 Fantastická čtyřka 2 Silver Surfer
 Fantastická čtyřka 2015
-Feedback cz tit
+Feedback 
 Ferocious Planet
-Fighting with My Family cz tit
+Fighting with My Family 
 Filth
-Final Girl cz tit
-Finch cz tit
+Final Girl 
+Finch 
 Flintstoneovi
 Flynn Carsen 1 Honba za kopím osudu
 Flynn Carsen 2 Návrat do dolů krále Šalamouna
@@ -271,9 +271,9 @@ Flynn Carsen 3 Jidášův Kalich
 Forest Gump
 Fotr je lotr
 Fotři jsou lotři
-Fractured cz tit
-Free Guy cz tit
-Fresh cz tit
+Fractured 
+Free Guy 
+Fresh 
 From Dusk Till Dawn
 Frozen 1
 Fury
@@ -287,29 +287,29 @@ Gejsa
 Gerald´s Game
 Ghost Rider 1
 Ghost Rider 2
-Ghost in the Shell cz tit
+Ghost in the Shell 
 Ghostbusters 1984
 Gladiátor
 Godzila 2014
 Godzilla
-Godzilla vs. Kong cz tit
-Good Boys cz tit
+Godzilla vs. Kong 
+Good Boys 
 Gran Torino
 Grand restaurant pana Septima
 Green Lantern
-Greta cz tit
-Greyhound cz tit
+Greta 
+Greyhound 
 Grimsby
 Grinch 2018
 Grindhouse Auto zabiják
-Guns Akimbo cz tit
-H0us3 cz tit
+Guns Akimbo 
+H0us3 
 Hacksaw Ridge - Zrození hrdiny
 Hadi v letadle
 Hadi ve vlaku
 Halloween
 Hancock
-Hands of Stone cz tit
+Hands of Stone 
 Hanebný pancharti
 Harry Potter 1 a Kámen mudrců
 Harry Potter 2 a Tajemná komnata
@@ -319,21 +319,21 @@ Harry Potter 5 a Fénixův řád
 Harry Potter 6 a Princ dvojí krve
 Harry Potter 7 a Relikvie smrti – část 1
 Harry Potter 7 a Relikvie smrti – část 2
-Hawking cz tit
+Hawking 
 Hezké vstávání
-Historias lamentables cz tit
+Historias lamentables 
 Hitch - Lék pro moderního muže
 Hleda se Dory
 Hobit 1 Neočekávaná cesta
 Hobit 2 Šmakova dračí poušť
 Hobit 3 Bitva pěti armád
-Hogar cz tit
+Hogar 
 Holky na výletě
 Hon
-Honba za svobodou cz tit
+Honba za svobodou 
 Hory mají oči 1
 Hory mají oči 2
-Hostiles cz tit
+Hostiles 
 Hořkých sedmnáct
 Hra o všechno
 Hrdinové ohně
@@ -345,8 +345,8 @@ Insidious 1
 Insidious 2
 Insomnie
 It chapter 1
-It chapter 2 cz tit
-Jack staví dům cz tit
+It chapter 2 
+Jack staví dům 
 Jackass 1
 Jackie Brown
 Jak jsem rozpoutal druhou světovou válku
@@ -355,19 +355,19 @@ Janghwa, Hongryeon kor
 Jason Bourne
 Jezero smrti
 John Wick 3 Parabollum
-Joker cz tit
+Joker 
 Jumanji 1 Vítejte v džungli
 Jumanji 2 Další level
 Jurský svět 2 Zánik říše
 Justice League
-Kafarnaum cz tit
+Kafarnaum 
 Karlík a továrna na čokoládu
 Kazišuci
 Kdo věří na lásku
 Kill Bill 1
 Kill Bill 2
 Killer Elite
-Klasický horor cz tit
+Klasický horor 
 Kler
 Klub Rváčů
 Klub sráčů
@@ -380,21 +380,21 @@ Kostka
 Kozí příběh - Pověsti staré Prahy
 Kruh 1
 Krvavá hostina
-Krvavá nevěsta cz tit
+Krvavá nevěsta 
 Krvežíznivé opice
 Krycí jméno Donnie Brasco
 Krycí jméno U.N.C.L.E.
 Král
-Králova řeč cz tit
+Králova řeč 
 Králové rocku
 Kráska a zvíře
 Kurýr Restart
 Kód Enigmy
-La Isla Mínima cz tit
-La cara oculta cz tit
+La Isla Mínima 
+La cara oculta 
 La piel que habito
-Land cz tit
-Le Mans '66 cz tit
+Land 
+Le Mans '66 
 Ledová Archa
 Legenda o Tarzanovi 
 Legendy z Dogtownu
@@ -402,7 +402,7 @@ Legendy zločinu
 Lesní duch
 Loganovi parťáci
 Looper
-Los Ojos De Julia cz tit
+Los Ojos De Julia 
 Lovci hlav
 Lovec trolů
 Láska a příšery
@@ -412,11 +412,11 @@ Mad Max 3 Dóm hromu
 Mad Max Fury Road
 Madagaskar 1
 Madagaskar 2 Útěk do Afriky
-Madres paralelas cz tit
+Madres paralelas 
 Magnolia
-Malá Smrt cz tit
-Mama cz tit
-Mandy cz tit
+Malá Smrt 
+Mama 
+Mandy 
 Margin Call
 Match Point - Hra osudu
 Matrix 1
@@ -430,14 +430,14 @@ Mechanik zabiják 2 Vzkříšení
 Meg - Monstrum z hlubin
 Megažralok vs. obří chobotnice
 Merlin
-Meru cz tit
+Meru 
 Miami Vice
-Mientras duermes cz tit
+Mientras duermes 
 Minamata eng
 Minority Report
 Misery nechce zemřít
 Mission Impossible 6 Fallout
-Mizerové navždy cz tit
+Mizerové navždy 
 Moneyball
 Monster Trucks
 Moon
@@ -451,30 +451,30 @@ Musíme si pomáhat
 Muž na laně
 Muž se železnou maskou
 Muži v černém 3
-Muži v černém Globální hrozba cz tit
-My děti ze stanice Zoo cz tit
+Muži v černém Globální hrozba 
+My děti ze stanice Zoo 
 Máš ji!
 Místnost sebevrahů
-Místnost sebevrahů. Hater cz tit
+Místnost sebevrahů. Hater 
 Můj soused zabiják 1
 Na dotek
 Nabarvené ptáče
-Naprostí cizinci cz tit
-Narušitel systému cz tit
+Naprostí cizinci 
+Narušitel systému 
 Nejvyšší nabídka
 Největší Showman
-Nekonečný cz tit
+Nekonečný 
 Nepřítel před branami
 Nespoutaný Django
 Netvor
 Never Sleep Again The Elm Street Legacy eng
-Neviditelný cz tit
+Neviditelný 
 Neznámý voják
 Nezvaná
 Nezvratný osud 1
 Nočni můry z temnot
 Noční hra
-Noční jízda  cz tit
+Noční jízda  
 Noční můra v Elm Street
 Noční zvířata
 Nákaza
@@ -485,38 +485,38 @@ Návrat do budoucnosti 3
 O myších a lidech
 Obchodník se smrtí
 Obhájce
-Obraz Doriana Graye cz tit
-Obřad cz tit
-Odporná hra cz tit
+Obraz Doriana Graye 
+Obřad 
+Odporná hra 
 Odpočítávání
-Ofrenda a la tormenta cz tit
+Ofrenda a la tormenta 
 Oko bere
-Oldboy 2003 cz tit
+Oldboy 2003 
 Ona
 Once Upon a Time in Hollywood
 Orel Eddie
-Orphan First Kill cz tit
+Orphan First Kill 
 Osm Hrozných
 Ospalá Díra
 Osudový dotek
-Osvícení cz tit
-Otec eng tit
-Očista cz tit
-Pach krve 2021 cz tit
+Osvícení 
+Otec 
+Očista 
+Pach krve 2021 
 Pacific Rim 2 Povstání
 Padesát odstínů černé
-Pahanhautoja cz tit
+Pahanhautoja 
 Parchanti
-Paroží cz tit
+Paroží 
 Party Hard
 Patriot
 Pawn Shop Chronicles - Historky ze zastavárny
 Pařba všech pařeb Poslední kocovina
 Pašerák
-Pearl cz tit
+Pearl 
 Pelíšky
-Perfect sense cz tit
-Philadelphia cz tit
+Perfect sense 
+Philadelphia 
 Piraňa 3D
 Piraňa 3DD
 Piráti z Karibiku 1 - Prokletí Černé perly
@@ -528,7 +528,7 @@ Piti Piti Pa
 Pláž
 Po přečtení spalte
 Podivuhodný případ Benjamina Buttona
-Pokemon - Detektiv Pikaču cz tit
+Pokemon - Detektiv Pikaču 
 Pokoj 1408
 Pokání
 Policejní akademie 2
@@ -539,10 +539,10 @@ Poslední Mohykán
 Poslední Samuraj
 Poslední Skaut
 Poslední duel
-Poslední neděle cz tit
+Poslední neděle 
 Poslední semestr
 Povídka o policajtovi
-Pozemšťan cz tit
+Pozemšťan 
 Pravdivá romance
 Pravdivé lži
 Predestination
@@ -562,10 +562,10 @@ Pán prstenů 3 Návrat krále
 Pátý element
 Píseční žraloci
 Pýcha a předsudek
-Případ SK1 cz tit
+Případ SK1 
 Příšerky s.r.o.
-Que Dios nos perdone cz tit
-Quien a Hierro Mata cz tit
+Que Dios nos perdone 
+Quien a Hierro Mata 
 REC 1
 REC 2
 Rakka
@@ -581,7 +581,7 @@ Ready Player One Hra začíná
 Red 1
 Red 2
 Red Notice
-Relatos salvajes cz tit
+Relatos salvajes 
 Rivalové
 Road to perdition
 Robocop 1987
@@ -594,14 +594,14 @@ Rocky 5
 Rocky 6 Rocky Balboa
 Rogue One  - Star Wars Story
 Rohy
-Rozhněvaný muž cz tit
+Rozhněvaný muž 
 Rozpolcený
 Rozsudek smrti
 Rudá Volavka
 Rychle a zběsile 2
 Rychle a zběsile 8
-Rychle a zběsile 9 Hobbs a Shaw cz tit
-Rytíři spravedlnosti cz tit
+Rychle a zběsile 9 Hobbs a Shaw 
+Rytíři spravedlnosti 
 S.W.A.T. - Jednotka rychlého nasazení
 Sahara
 Samotáři
@@ -611,34 +611,34 @@ Sbal prachy a vypadni
 Scary Movie 1 Děsnej biják
 Schindlerův seznam
 Se7en
-Secuestro cz tit
+Secuestro 
 Sedm psychopatů
 Sedm statečných
 Sejmi Eso
-Seveřan cz tit
+Seveřan 
 Sharkenstein eng
 Shaun of the Dead
-Shazam! cz tit
+Shazam! 
 Shrek 1
 Shrek 2
-Sick cz tit
+Sick 
 Silent Hill
 Simpsonovi ve filmu
 Sin City Město Hříchů
 Sin City Ženská, pro kterou bych vraždil
-Sin Nombre cz tit
+Sin Nombre 
 Sinister 1
 Sinister 2
 Sirotčinec slečny Peregrinové pro podivné děti
 Skautův průvodce zombie apokalypsou
-Skleněný cz tit
+Skleněný 
 Skrytá identita
 Skrytá čísla
-Sky Sharks cz tit
+Sky Sharks 
 Skyscraper
 Slepičí úlet
-Složka 64 cz tit
-Slunovrat cz tit
+Složka 64 
+Slunovrat 
 Smrt v kapce jedu
 Smrt ve tmě 1
 Smrtihlav
@@ -655,9 +655,9 @@ Solo Star Wars Story
 Spider-Man 1
 Spider-Man 2
 Spider-Man 3
-Spider-Man Bez domova cz tit
+Spider-Man Bez domova 
 Spider-Man Paralelní světy
-Spirála strachu - Saw pokračuje cz tit
+Spirála strachu - Saw pokračuje 
 Společnost mrtvých básníků
 Stan Helsing
 Star Wars Epizoda I Skrytá hrozba
@@ -668,9 +668,9 @@ Star Wars Epizoda V Impérium vrací úder
 Star Wars Epizoda VI Návrat Jediho
 Star Wars Epizoda VII Síla se probouzí
 Star Wars Epizoda VIII Poslední z Jediů
-Star-Wars 9 Vzestup Skywalkera cz tit
+Star-Wars 9 Vzestup Skywalkera 
 Statečné srdce
-Strach a hnus v Las Vegas cz tit
+Strach a hnus v Las Vegas 
 Strings
 Stážista
 Střihoruký Edward
@@ -685,10 +685,10 @@ Tata v sukni
 Telefon
 Telefonní Budka
 Temná věž
-Temné Údolí  cz tit
+Temné Údolí  
 Temný dům
 Temný rytíř
-Tenet cz tit
+Tenet 
 Tenká červená linie
 Terminátor 1
 Terminátor 2 Den zúčtování
@@ -696,30 +696,30 @@ Terminátor 3 Vzpoura strojů
 Terminátor 4 Salvation
 The Amazing Spider-Man 1
 The Amazing Spider-Man 2
-The Ballad of Buster Scruggs cz tit
-The Batman 2022 cz tit
-The Courier cz tit
-The Deep House cz tit
+The Ballad of Buster Scruggs 
+The Batman 2022 
+The Courier 
+The Deep House 
 The Game
-The Gentlemen cz tit
-The Head Hunter cz tit
-The Irishman cz tit
+The Gentlemen 
+The Head Hunter 
+The Irishman 
 The Last King of Scotland
 The Menu
 The Mist
-The Nightmare Before Christmas cz tit
-The Professor and the Madman cz tit
-The Ritual cz tit
-The Siege of Jadotville cz tit
+The Nightmare Before Christmas 
+The Professor and the Madman 
+The Ritual 
+The Siege of Jadotville 
 The Star Wars Holiday Special eng
 The Tomorrow War
 The VelociPastor eng
 The Witcher Nightmare of the Wolf
-The Witcher fan film Alzur's Legacy eng tit
+The Witcher fan film Alzur's Legacy 
 The World´s End
-The strangers 1 cz tit
+The strangers 1 
 Thor 3 Ragnarok
-Tiché místo 2 cz tit
+Tiché místo 2 
 Tlumočnice
 Tolkien
 Total Recall
@@ -730,24 +730,24 @@ Trainspotting 2
 Trans
 Transformers 5 Poslední rytíř
 Trial by fire eng
-Trojúhelník smutku cz tit
+Trojúhelník smutku 
 Trosečník
 Truman Show
 Tucker a Dale vs Zlo
 Tváří v tvář
-Tísňová linka cz tit
+Tísňová linka 
 Týpci a zbraně
 Tři billboardy kousek za Ebbingem
 Tři králové
 Tři sekundy
-Tři smrti Marisely Escobedo cz tit
-U Zlaté rukavice cz tit
+Tři smrti Marisely Escobedo 
+U Zlaté rukavice 
 U-Turn
 Ulice Cloverfield 10
 Ulička hanby
 Univerzita pro příšerky
 Univerzální uklízečka
-Upgrade cz tit
+Upgrade 
 Upíří Akademie
 V hlavě
 V kůži Johna Malkoviche
@@ -757,7 +757,7 @@ V zajetí démonů 1
 V zajetí démonů 2
 V zajetí démonů 3 Na Ďáblův příkaz
 V řetězech
-V.H.S.94 cz tit
+V.H.S.94 
 Vadí nevadí
 Valerian a město tisíce planet
 Velký Gatsby
@@ -771,8 +771,8 @@ Vetřelec 3
 Vetřelec 4 Vzkříšení
 Vetřelec Covenant
 Veřejní nepřatelé
-Viděl jsem ďábla cz tit
-Vlak do Pusanu cz tit
+Viděl jsem ďábla 
+Vlak do Pusanu 
 Volný pád
 Vražda v Orient expresu
 Vraždící buldozer
@@ -782,46 +782,46 @@ Vymitač Ďabla
 Vyměřený čas
 Vyvolený
 Vzpomeň si
-Vánoční koleda cz tit
-Výjimeční cz tit
-Výtah cz tit
+Vánoční koleda 
+Výjimeční 
+Výtah 
 Věc
 Věc - Počátek
 Všechny cesty vedou do hrobu
 Warcraft První střet
 Warrior
-Watchmen cz tit
-Who am I - Žádný systém není bezpečný cz tit
+Watchmen 
+Who am I - Žádný systém není bezpečný 
 Wind River
-Wolves cz tit
+Wolves 
 Wonder Woman
 Wuthering Heights en tit
-X cz tit
+X 
 X-Men 9 Dark Phoenix
-Yakuza and the Family cz tit
+Yakuza and the Family 
 Z pekla
 Za každou cenu
 Zabiják & bodyguard
 Zachraňte vojína Ryana
-Zack Snyder's Justice League cz tit
+Zack Snyder's Justice League 
 Zahulíme, uvidíme 1
 Zakletý v čase
 Zbrusu nový zákon
 Zdrojový kód
-Zelená kniha cz tit
+Zelená kniha 
 Země zítřka
 Zhoubné zlo
 Zkažená mládež
 Zkurvená noc
-Zkáza paní Grace cz tit
+Zkáza paní Grace 
 Zlo s lidskou tváří
 Zlodějka knih
 Zmizelá
 Zmizení
 Zmrzlá zem
 Znamení
-Zodiac cz tit
-Zombeavers cz tit
+Zodiac 
+Zombeavers 
 Zombies  Den D přichází
 Zorro Tajemná tvář
 Zprávař 2 Legenda pokračuje
@@ -844,11 +844,11 @@ Ztracen v džungli
 Četník ze Saint Tropez
 Čistá duše
 Čistá práce
-Člověk bez osudu cz tit
+Člověk bez osudu 
 Čtvery Vánoce
 Čtyři pokoje
 Číslo 23
-Ďábel cz tit
+Ďábel 
 Ďáblův advokát
 Řbitov zviřátek
 Řecké mýty 1
@@ -867,5 +867,5 @@ Ztracen v džungli
 Žraločí tornádo 2
 Žraločí tornádo 3
 Žraločí tornádo 4
-Žraločí tornádo 5 Global Swarming cz tit
-Žraločí tornádo 6 The Last Sharknado - Its About Time cz tit
+Žraločí tornádo 5 Global Swarming 
+Žraločí tornádo 6 The Last Sharknado - Its About Time 
