@@ -163,3 +163,5 @@ cython_debug/
 .google-cookie
 .vscode/
 data_backup/
+outputs/
+inputs/

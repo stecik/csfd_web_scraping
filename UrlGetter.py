@@ -1,11 +1,12 @@
 import requests
 from bs4 import BeautifulSoup
+from AbcScraper import AbcScraper
+import os
 
 
-class UrlGetter:
+class UrlGetter(AbcScraper):
     def __init__(self) -> None:
-        self.failed = []
-        self.urls = dict()
+        super().__init__()
 
     def get_films(self, films_txt):
         films = []
@@ -35,22 +36,27 @@ class UrlGetter:
             print(html.status_code)
             return None
 
-    def get_all_urls(self, films_list):
+    def get_all_data(self, films_list):
         for film in films_list:
             url = self.get_url(film)
             if url:
-                self.urls.update({film: url})
+                self.output.update({film: url})
             else:
                 self.failed.append(film)
         return True
 
-    def divide_into_threads(self, number_of_threads, films_list):
-        films_len = len(films_list)
-        part = films_len // number_of_threads
-        mod = films_len % number_of_threads
-        parts = []
-        for i in range(0, films_len - mod, part):
-            parts.append(films_list[i : (i + part)])
-        for i in range(-1, -mod - 1, -1):
-            parts[i].append(films_list[i])
-        return parts
+    def save_results(self, output_csv):
+        if os.path.exists(output_csv):
+            with open(output_csv, "a", encoding="utf-8") as f:
+                for key, value in self.output.items():
+                    f.write(f"{key},{value}\n")
+        else:
+            with open(output_csv, "w", encoding="utf-8") as f:
+                f.write("Název,Odkaz\n")
+                for key, value in self.output.items():
+                    f.write(f"{key},{value}\n")
+
+        with open("failed/failed.txt", "w", encoding="utf-8") as f:
+            for item in self.failed:
+                f.write(item)
+                f.write("\n")

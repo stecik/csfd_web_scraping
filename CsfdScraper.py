@@ -1,9 +1,13 @@
+from AbcScraper import AbcScraper
 from bs4 import BeautifulSoup
 import requests
 import os
 
 
-class CsfdScraper:
+class CsfdScraper(AbcScraper):
+    def __init__(self) -> None:
+        super().__init__()
+
     def get_available_streaming(self, list_name):
         available = []
         with open(list_name, "r", encoding="utf-8") as f:
@@ -42,36 +46,41 @@ class CsfdScraper:
             return (rating, streaming_services_list)
         return None
 
-    def get_all_film_data(self, films_csv):
-        scraped_data = dict()
-        failed = dict()
+    def get_films(self, films_csv):
+        films_list = []
         with open(films_csv, "r", encoding="utf-8") as f:
             file = f.readlines()
             for i in range(1, len(file)):
                 film, link = list(map(str.strip, file[i].split(",")))
-                curr_data = self.get_film_data(link)
-                if curr_data:
-                    rating, streaming = curr_data
-                    data = (rating, streaming, link)
-                    scraped_data.update({film: data})
-                else:
-                    failed.update({film: link})
+                films_list.append((film, link))
+        return films_list
 
-        output_csv = "scraped_data.csv"
+    def get_all_data(self, films_list):
+        for item in films_list:
+            film = item[0]
+            link = item[1]
+            curr_data = self.get_film_data(link)
+            if curr_data:
+                rating, streaming = curr_data
+                data = (rating, streaming, link)
+                self.output.update({film: data})
+            else:
+                self.failed.append((film, link))
+        return True
 
+    def save_results(self, output_csv):
         if os.path.exists(output_csv):
             with open(output_csv, "a", encoding="utf-8") as f:
-                for key, value in scraped_data.items():
+                for key, value in self.output.items():
                     f.write(f"{key},{value[0]},{value[1]},{value[2]}\n")
         else:
             with open(output_csv, "w", encoding="utf-8") as f:
                 f.write("Název,Rating,Streaming,Odkaz\n")
-                for key, value in scraped_data.items():
+                for key, value in self.output.items():
                     f.write(
                         f"{key},{value[0]},{value[1] if value[1] else None},{value[2]}\n"
                     )
-
-        with open("failed.csv", "w", encoding="utf-8") as f:
+        with open("failed/failed.csv", "w", encoding="utf-8") as f:
             f.write("Název,Odkaz\n")
-            for key, value in failed.items():
-                f.write(f"{key},{value}\n")
+            for film in self.failed:
+                f.write(f"{film[0]},{film[1]}\n")
