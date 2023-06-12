@@ -2,6 +2,8 @@ from abc import ABC, abstractmethod
 from concurrent.futures import ThreadPoolExecutor
 
 
+# This method is an abstract method for a web scraper.
+# It defines the execute and divide_into_threads methods.
 class AbcScraper(ABC):
     @abstractmethod
     def __init__(self) -> None:
@@ -21,6 +23,7 @@ class AbcScraper(ABC):
     def get_films(self, input_file):
         pass
 
+    # This function divides a list into chunks so it can be processed using threading.
     def divide_into_threads(self, number_of_threads, films_list):
         films_len = len(films_list)
         part = films_len // number_of_threads
@@ -32,6 +35,8 @@ class AbcScraper(ABC):
             parts[i].append(films_list[i])
         return parts
 
+    # This function executes the function get_all_data for a list of films
+    # threds specifies a number of threads whitch are being executed at once
     def execute(self, threads, input_file, output_csv):
         films = self.get_films(input_file)
         number_of_threads = min(threads, len(films))
