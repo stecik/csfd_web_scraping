@@ -22,6 +22,7 @@ class CsfdScraper(AbcScraper):
         s.headers = headers
         html = s.get(url)
         available_straming = self.get_available_streaming("available_streaming.txt")
+        print(html.status_code)
         if html.status_code == 200:
             soup = BeautifulSoup(html.content, "html.parser")
             # get rating
@@ -68,17 +69,29 @@ class CsfdScraper(AbcScraper):
                 self.failed.append((film, link))
         return True
 
+    def _streaming_to_text(self, streaming):
+        if streaming:
+            streaming = str(streaming)
+            streaming = streaming.replace("[", "")
+            streaming = streaming.replace("]", "")
+            streaming = streaming.replace("'", "")
+            streaming = streaming.replace(",", ";")
+            return streaming
+        return None
+
     def save_results(self, output_csv):
         if os.path.exists(output_csv):
             with open(output_csv, "a", encoding="utf-8") as f:
                 for key, value in self.output.items():
-                    f.write(f"{key},{value[0]},{value[1]},{value[2]}\n")
+                    f.write(
+                        f"{key},{value[0]},{self._streaming_to_text(value[1])},{value[2]}\n"
+                    )
         else:
             with open(output_csv, "w", encoding="utf-8") as f:
                 f.write("Název,Rating,Streaming,Odkaz\n")
                 for key, value in self.output.items():
                     f.write(
-                        f"{key},{value[0]},{value[1] if value[1] else None},{value[2]}\n"
+                        f"{key},{value[0]},{self._streaming_to_text(value[1])},{value[2]}\n"
                     )
         with open("failed/failed.csv", "w", encoding="utf-8") as f:
             f.write("Název,Odkaz\n")

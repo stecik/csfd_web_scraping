@@ -24,17 +24,15 @@ class UrlGetter(AbcScraper):
         }
         s.headers = headers
         html = s.get(url)
+        print(html.status_code)
         if html.status_code == 200:
-            print(200)
             soup = BeautifulSoup(html.content, "html.parser")
             link_elements = soup.find_all("a", href=True)
             for link in link_elements:
                 if "www.csfd.cz" in link["href"]:
                     return link["href"]
             return None
-        else:
-            print(html.status_code)
-            return None
+        return None
 
     def get_all_data(self, films_list):
         for film in films_list:
