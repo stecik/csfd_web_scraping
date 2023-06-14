@@ -39,7 +39,7 @@ class CsfdScraper(AbcScraper):
                 )
                 rating = rating.replace("%", "")
             except:
-                raiting = None
+                raiting = "?"
             # Get the list of streaming services for the film.
             streaming_services_list = []
             try:
@@ -100,7 +100,7 @@ class CsfdScraper(AbcScraper):
                     )
         else:
             with open(output_csv, "w", encoding="utf-8") as f:
-                f.write("Název,Rating,Streaming,Odkaz\n")
+                f.write("Name,Rating,Streaming,Link\n")
                 for key, value in self.output.items():
                     f.write(
                         f"{key},{value[0]},{self._streaming_to_text(value[1])},{value[2]}\n"
@@ -110,6 +110,6 @@ class CsfdScraper(AbcScraper):
         # (probably 429 - to many requests). In that case use a proxy or vpn and feed the failed
         # file back to the execute method.
         with open("failed/failed.csv", "w", encoding="utf-8") as f:
-            f.write("Název,Odkaz\n")
+            f.write("Name,Link\n")
             for film in self.failed:
                 f.write(f"{film[0]},{film[1]}\n")

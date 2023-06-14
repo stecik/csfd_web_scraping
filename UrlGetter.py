@@ -58,7 +58,7 @@ class UrlGetter(AbcScraper):
                     f.write(f"{key},{value}\n")
         else:
             with open(output_csv, "w", encoding="utf-8") as f:
-                f.write("Název,Odkaz\n")
+                f.write("Name,Link\n")
                 for key, value in self.output.items():
                     f.write(f"{key},{value}\n")
 
